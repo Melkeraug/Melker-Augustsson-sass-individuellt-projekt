@@ -1,17 +1,19 @@
 @mixin flexCenter() {
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: $direction;
-    background: $bcg;
 }
 
 header{
     background: mediumslateblue;
-    height: 100vh;
+    height: 200vh;
     color: $textcolor;
 
+}
+
+h1{
+    text-decoration-color: $textcolor;
 }
 
 @mixin button {
